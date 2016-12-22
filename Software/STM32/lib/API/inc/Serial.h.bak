@@ -1,0 +1,50 @@
+#ifndef __SERIAL_H
+#define __SERIAL_H
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f0xx.h"
+#include "Common.h"
+
+/* Includes ------------------------------------------------------------------*/
+#define DEFAULT_BAUDRATE (9600)
+#define MAX_USART_RX_BUF_LEN			(255)
+#define USART_ENDOFFRAME_RX_TIME	(2)	// 2 ms
+
+/* Public variables ----------------------------------------------------------*/
+extern "C"
+{
+extern char USART1_usartRxTimer;
+extern char USART2_usartRxTimer;
+}
+
+/* Class ---------------------------------------------------------------------*/
+class Serial
+{
+	private:
+		
+		GPIO_TypeDef* m_rxPort;
+		int m_rxPin;
+		int m_rxPinSource;
+	
+		GPIO_TypeDef* m_txPort;
+		int m_txPin;
+		int m_txPinSource;
+	
+		int m_baudrate;
+		USART_TypeDef* m_usart;
+	
+		char *m_timer;
+		int m_head;
+		int m_tail;
+		char *m_buffer;
+	
+	public:
+		
+		Serial(USART_TypeDef* USARTx, GPIO_common GPIO_c_rx, GPIO_common GPIO_c_tx);
+		void receive(void);
+		void baud(int baudrate);
+		void write(char *buffer, int length);
+		int read(char *buffer);
+};
+
+#endif /* __SERIAL_H */

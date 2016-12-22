@@ -1,0 +1,206 @@
+#include "Serial.h"
+#include <stdlib.h>
+
+/* Private variables ---------------------------------------------------------*/
+extern "C"
+{
+	Serial *serial1;
+	Serial *serial2;
+
+	char USART1_usartRxTimer;
+	char USART2_usartRxTimer;
+}
+	
+Serial :: Serial(USART_TypeDef* USARTx, GPIO_common GPIO_c_rx, GPIO_common GPIO_c_tx)
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+	NVIC_InitTypeDef NVIC_InitStructure;
+	USART_InitTypeDef USART_InitStructure;
+	
+	m_rxPort = GPIO_c_rx.port;
+	m_rxPin = GPIO_c_rx.pin;
+	m_rxPinSource = GPIO_c_rx.pinSource;
+	
+	m_txPort = GPIO_c_tx.port;
+	m_txPin = GPIO_c_tx.pin;
+	m_txPinSource = GPIO_c_tx.pinSource;
+	
+	m_baudrate = DEFAULT_BAUDRATE;
+	m_usart = USARTx;
+	
+	m_buffer = (char*) calloc(MAX_USART_RX_BUF_LEN, sizeof(char));
+	
+	if(m_usart == USART1)
+	{
+		serial1 = this;
+		m_timer = &USART1_usartRxTimer;
+	}
+	else if(m_usart == USART2)
+	{
+		serial2 = this;
+		m_timer = &USART2_usartRxTimer;
+	}
+  
+  /* Enable GPIO clock */
+  if(m_rxPort == GPIOA) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+	else if(m_rxPort == GPIOB) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOB, ENABLE);
+	else if(m_rxPort == GPIOC) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOC, ENABLE);
+	else if(m_rxPort == GPIOD) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOD, ENABLE);
+	
+	if(m_txPort == GPIOA) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+	else if(m_txPort == GPIOB) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOB, ENABLE);
+	else if(m_txPort == GPIOC) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOC, ENABLE);
+	else if(m_txPort == GPIOD) RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOD, ENABLE);
+  
+  /* Enable USART clock */
+  if(m_usart == USART1) RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
+	else if(m_usart == USART2) RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
+
+  /* Connect USART pins to alternate function */
+  if(m_rxPort == GPIOA) GPIO_PinAFConfig(GPIOA, m_rxPinSource, GPIO_AF_1);
+	else if(m_rxPort == GPIOB) GPIO_PinAFConfig(GPIOB, m_rxPinSource, GPIO_AF_0);
+	
+	if(m_txPort == GPIOA) GPIO_PinAFConfig(GPIOA, m_txPinSource, GPIO_AF_1);
+	else if(m_txPort == GPIOB) GPIO_PinAFConfig(GPIOB, m_txPinSource, GPIO_AF_0);
+  
+  /* Configure USART Tx and Rx as alternate function push-pull */
+  GPIO_InitStructure.GPIO_Pin = m_rxPin;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_Level_3;
+  GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN;
+  GPIO_Init(m_rxPort, &GPIO_InitStructure);
+  
+  GPIO_InitStructure.GPIO_Pin = m_txPin;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+  GPIO_Init(m_txPort, &GPIO_InitStructure);
+	
+  /* Enable the USARTx Interrupt */
+  if(m_usart == USART1) NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;
+	else if(m_usart == USART2) NVIC_InitStructure.NVIC_IRQChannel = USART2_IRQn;
+	
+  NVIC_InitStructure.NVIC_IRQChannelPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+  NVIC_Init(&NVIC_InitStructure);
+	
+	/* USARTx configured as follow:
+        - BaudRate = 9600 baud  
+        - Word Length = 8 Bits
+        - One Stop Bit
+        - No parity
+        - Hardware flow control disabled (RTS and CTS signals)
+        - Receive and transmit enabled
+  */
+	
+  USART_InitStructure.USART_BaudRate = m_baudrate;
+  USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+  USART_InitStructure.USART_StopBits = USART_StopBits_1;
+  USART_InitStructure.USART_Parity = USART_Parity_No;
+  USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+  USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+
+  USART_Init(m_usart, &USART_InitStructure);
+	
+  /* Enable the USART3 Receive interrupt: this interrupt is generated when the 
+     USART3 receive data register is not empty */
+  USART_ITConfig(m_usart, USART_IT_RXNE, ENABLE);
+	
+	USART_Cmd(m_usart, ENABLE);
+}
+
+void Serial :: receive(void)
+{
+	m_buffer[m_head++] = (USART_ReceiveData(m_usart) & 0x7F);
+			
+	/* To avoid buffer overflow */
+	if(m_head == MAX_USART_RX_BUF_LEN)
+	{
+		m_head = 0;
+	}
+	
+	/* Reload timer */
+	*m_timer = USART_ENDOFFRAME_RX_TIME;
+}
+
+void Serial :: baud(int baudrate)
+{
+	USART_InitTypeDef USART_InitStructure;
+	
+	m_baudrate = baudrate;
+	
+	/* Disable USART ! */
+	USART_Cmd(m_usart, DISABLE);
+	
+	USART_InitStructure.USART_BaudRate = m_baudrate;
+  USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+  USART_InitStructure.USART_StopBits = USART_StopBits_1;
+  USART_InitStructure.USART_Parity = USART_Parity_No;
+  USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+  USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+
+  USART_Init(m_usart, &USART_InitStructure);
+	
+	USART_Cmd(m_usart, ENABLE);
+}
+
+void Serial :: write(char *buffer, int length)
+{
+	int i;
+	
+	for(i = 0; i < length; i++, buffer++)
+	{
+		USART_SendData(m_usart, *buffer);
+		while (USART_GetFlagStatus(m_usart, USART_FLAG_TC) == RESET);
+	}
+}
+
+int Serial :: read(char *buffer)
+{
+	int i = 0;
+	int length = 0;
+	
+	if(*m_timer != 0)
+	{
+		return 0;
+	}
+	else
+	{
+		if(m_head >= m_tail) length = m_head - m_tail;
+		else length = m_head + (MAX_USART_RX_BUF_LEN - m_tail);
+			
+		if(m_head == m_tail) return 0;
+		else
+		{			
+			for(i = 0; i < length; i++, buffer++)
+			{
+				*buffer = m_buffer[m_tail++];
+				
+				if(m_tail >= MAX_USART_RX_BUF_LEN)
+				{
+					m_tail = 0;
+				}
+			}
+				
+			return length;
+		}
+	}
+}
+
+extern "C"
+{
+	void USART1_IRQHandler(void)
+	{	
+		if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
+		{
+			serial1->receive();
+		}
+	}
+	
+	void USART2_IRQHandler(void)
+	{	
+		if(USART_GetITStatus(USART2, USART_IT_RXNE) != RESET)
+		{			
+			serial2->receive();
+		}
+	}
+}

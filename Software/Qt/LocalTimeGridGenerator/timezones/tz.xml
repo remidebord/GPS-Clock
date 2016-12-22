@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<timezones>
+	<timezone id="Africa/Abidjan">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Accra">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Addis_Ababa">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Algiers">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Asmara">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Asmera">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Bamako">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Bangui">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Banjul">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Bissau">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Blantyre">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Brazzaville">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Bujumbura">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Cairo">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Casablanca">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Ceuta">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Conakry">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Dakar">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Dar_es_Salaam">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Djibouti">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Douala">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/El_Aaiun">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Freetown">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Gaborone">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Harare">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Johannesburg">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Juba">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Kampala">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Khartoum">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Kigali">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Kinshasa">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Lagos">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Libreville">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Lome">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Luanda">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Lubumbashi">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Lusaka">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Malabo">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Maputo">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Maseru">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Mbabane">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Mogadishu">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Monrovia">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Nairobi">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Africa/Ndjamena">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Niamey">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Nouakchott">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Ouagadougou">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Porto-Novo">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Sao_Tome">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Timbuktu">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Africa/Tripoli">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Africa/Tunis">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Africa/Windhoek">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="America/Adak">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="America/Anchorage">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="America/Anguilla">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Antigua">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Araguaina">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Buenos_Aires">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Catamarca">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/ComodRivadavia">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Cordoba">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Jujuy">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/La_Rioja">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Mendoza">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Rio_Gallegos">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Salta">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/San_Juan">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/San_Luis">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Tucuman">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Argentina/Ushuaia">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Aruba">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Asuncion">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Atikokan">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Atka">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="America/Bahia">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Bahia_Banderas">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Barbados">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Belem">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Belize">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Blanc-Sablon">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Boa_Vista">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Bogota">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Boise">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Buenos_Aires">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Cambridge_Bay">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Campo_Grande">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Cancun">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Caracas">
+		<utc_offset>-16200</utc_offset>
+	</timezone>
+	<timezone id="America/Catamarca">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Cayenne">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Cayman">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Chicago">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Chihuahua">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Coral_Harbour">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Cordoba">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Costa_Rica">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Creston">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Cuiaba">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Curacao">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Danmarkshavn">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="America/Dawson">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="America/Dawson_Creek">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Denver">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Detroit">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Dominica">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Edmonton">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Eirunepe">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/El_Salvador">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Ensenada">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="America/Fort_Nelson">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Fort_Wayne">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Fortaleza">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Glace_Bay">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Godthab">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Goose_Bay">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Grand_Turk">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Grenada">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Guadeloupe">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Guatemala">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Guayaquil">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Guyana">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Halifax">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Havana">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Hermosillo">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Indianapolis">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Knox">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Marengo">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Petersburg">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Tell_City">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Vevay">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Vincennes">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Indiana/Winamac">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Indianapolis">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Inuvik">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Iqaluit">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Jamaica">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Jujuy">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Juneau">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="America/Kentucky/Louisville">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Kentucky/Monticello">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Knox_IN">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Kralendijk">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/La_Paz">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Lima">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Los_Angeles">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="America/Louisville">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Lower_Princes">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Maceio">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Managua">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Manaus">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Marigot">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Martinique">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Matamoros">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Mazatlan">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Mendoza">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Menominee">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Merida">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Metlakatla">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="America/Mexico_City">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Miquelon">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Moncton">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Monterrey">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Montevideo">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Montreal">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Montserrat">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Nassau">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/New_York">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Nipigon">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Nome">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="America/Noronha">
+		<utc_offset>-7200</utc_offset>
+	</timezone>
+	<timezone id="America/North_Dakota/Beulah">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/North_Dakota/Center">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/North_Dakota/New_Salem">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Ojinaga">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Panama">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Pangnirtung">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Paramaribo">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Phoenix">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Port-au-Prince">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Port_of_Spain">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Porto_Acre">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Porto_Velho">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Puerto_Rico">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Rainy_River">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Rankin_Inlet">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Recife">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Regina">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Resolute">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Rio_Branco">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Rosario">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Santa_Isabel">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="America/Santarem">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Santiago">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="America/Santo_Domingo">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Sao_Paulo">
+		<utc_offset>-7200</utc_offset>
+	</timezone>
+	<timezone id="America/Scoresbysund">
+		<utc_offset>-3600</utc_offset>
+	</timezone>
+	<timezone id="America/Shiprock">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="America/Sitka">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="America/St_Barthelemy">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/St_Johns">
+		<utc_offset>-12600</utc_offset>
+	</timezone>
+	<timezone id="America/St_Kitts">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/St_Lucia">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/St_Thomas">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/St_Vincent">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Swift_Current">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Tegucigalpa">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Thule">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Thunder_Bay">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Tijuana">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="America/Toronto">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="America/Tortola">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Vancouver">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="America/Virgin">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="America/Whitehorse">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="America/Winnipeg">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="America/Yakutat">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="America/Yellowknife">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Casey">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Davis">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/DumontDUrville">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Macquarie">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Mawson">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/McMurdo">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Palmer">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Rothera">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/South_Pole">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Syowa">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Troll">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Antarctica/Vostok">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Arctic/Longyearbyen">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Aden">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Almaty">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Amman">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Anadyr">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Aqtau">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Aqtobe">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Ashgabat">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Ashkhabad">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Baghdad">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Bahrain">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Baku">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Bangkok">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Beirut">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Bishkek">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Brunei">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Calcutta">
+		<utc_offset>19800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Chita">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Choibalsan">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Chongqing">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Chungking">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Colombo">
+		<utc_offset>19800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Dacca">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Damascus">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Dhaka">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Dili">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Dubai">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Dushanbe">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Gaza">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Harbin">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Hebron">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Ho_Chi_Minh">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Hong_Kong">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Hovd">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Irkutsk">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Istanbul">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Jakarta">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Jayapura">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Jerusalem">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kabul">
+		<utc_offset>16200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kamchatka">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Karachi">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kashgar">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kathmandu">
+		<utc_offset>20700</utc_offset>
+	</timezone>
+	<timezone id="Asia/Katmandu">
+		<utc_offset>20700</utc_offset>
+	</timezone>
+	<timezone id="Asia/Khandyga">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kolkata">
+		<utc_offset>19800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Krasnoyarsk">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kuala_Lumpur">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kuching">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Kuwait">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Macao">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Macau">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Magadan">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Makassar">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Manila">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Muscat">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Nicosia">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Novokuznetsk">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Novosibirsk">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Omsk">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Oral">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Phnom_Penh">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Pontianak">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Pyongyang">
+		<utc_offset>30600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Qatar">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Qyzylorda">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Rangoon">
+		<utc_offset>23400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Riyadh">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Saigon">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Sakhalin">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Samarkand">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Seoul">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Shanghai">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Singapore">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Srednekolymsk">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Taipei">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Tashkent">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Tbilisi">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Tehran">
+		<utc_offset>12600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Tel_Aviv">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Thimbu">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Thimphu">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Tokyo">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Ujung_Pandang">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Ulaanbaatar">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Ulan_Bator">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Asia/Urumqi">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Asia/Ust-Nera">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Vientiane">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Asia/Vladivostok">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Yakutsk">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Asia/Yekaterinburg">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Asia/Yerevan">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Azores">
+		<utc_offset>-3600</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Bermuda">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Canary">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Cape_Verde">
+		<utc_offset>-3600</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Faeroe">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Faroe">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Jan_Mayen">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Madeira">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Reykjavik">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/South_Georgia">
+		<utc_offset>-7200</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/St_Helena">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Atlantic/Stanley">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="Australia/ACT">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Adelaide">
+		<utc_offset>37800</utc_offset>
+	</timezone>
+	<timezone id="Australia/Brisbane">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Australia/Broken_Hill">
+		<utc_offset>37800</utc_offset>
+	</timezone>
+	<timezone id="Australia/Canberra">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Currie">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Darwin">
+		<utc_offset>34200</utc_offset>
+	</timezone>
+	<timezone id="Australia/Eucla">
+		<utc_offset>31500</utc_offset>
+	</timezone>
+	<timezone id="Australia/Hobart">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/LHI">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Lindeman">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Australia/Lord_Howe">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Melbourne">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/North">
+		<utc_offset>34200</utc_offset>
+	</timezone>
+	<timezone id="Australia/NSW">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Perth">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Australia/Queensland">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Australia/South">
+		<utc_offset>37800</utc_offset>
+	</timezone>
+	<timezone id="Australia/Sydney">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Tasmania">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/Victoria">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Australia/West">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Australia/Yancowinna">
+		<utc_offset>37800</utc_offset>
+	</timezone>
+	<timezone id="Brazil/Acre">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="Brazil/DeNoronha">
+		<utc_offset>-7200</utc_offset>
+	</timezone>
+	<timezone id="Brazil/East">
+		<utc_offset>-7200</utc_offset>
+	</timezone>
+	<timezone id="Brazil/West">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="Canada/Atlantic">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="Canada/Central">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="Canada/East-Saskatchewan">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="Canada/Eastern">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="Canada/Mountain">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="Canada/Newfoundland">
+		<utc_offset>-12600</utc_offset>
+	</timezone>
+	<timezone id="Canada/Pacific">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="Canada/Saskatchewan">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="Canada/Yukon">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="CET">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Chile/Continental">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="Chile/EasterIsland">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="CST6CDT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Cuba">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="EET">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Egypt">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Eire">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="EST">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="EST5EDT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+0">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+1">
+		<utc_offset>-3600</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+10">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+11">
+		<utc_offset>-39600</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+12">
+		<utc_offset>-43200</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+2">
+		<utc_offset>-7200</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+3">
+		<utc_offset>-10800</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+4">
+		<utc_offset>-14400</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+5">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+6">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+7">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+8">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT+9">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-0">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-1">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-10">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-11">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-12">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-13">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-14">
+		<utc_offset>50400</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-2">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-3">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-4">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-5">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-6">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-7">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-8">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT-9">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Etc/GMT0">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/Greenwich">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/UCT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/Universal">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/UTC">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Etc/Zulu">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Amsterdam">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Andorra">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Athens">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Belfast">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Belgrade">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Berlin">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Bratislava">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Brussels">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Bucharest">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Budapest">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Busingen">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Chisinau">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Copenhagen">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Dublin">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Gibraltar">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Guernsey">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Helsinki">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Isle_of_Man">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Istanbul">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Jersey">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Kaliningrad">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Kiev">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Lisbon">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Ljubljana">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/London">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Europe/Luxembourg">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Madrid">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Malta">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Mariehamn">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Minsk">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Europe/Monaco">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Moscow">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Europe/Nicosia">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Oslo">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Paris">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Podgorica">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Prague">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Riga">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Rome">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Samara">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Europe/San_Marino">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Sarajevo">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Simferopol">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Europe/Skopje">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Sofia">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Stockholm">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Tallinn">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Tirane">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Tiraspol">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Uzhgorod">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Vaduz">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Vatican">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Vienna">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Vilnius">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Volgograd">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Europe/Warsaw">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Zagreb">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Europe/Zaporozhye">
+		<utc_offset>7200</utc_offset>
+	</timezone>
+	<timezone id="Europe/Zurich">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Factory">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="GB">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="GB-Eire">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="GMT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="GMT+0">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="GMT-0">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="GMT0">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Greenwich">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Hongkong">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="HST">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="Iceland">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Indian/Antananarivo">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Indian/Chagos">
+		<utc_offset>21600</utc_offset>
+	</timezone>
+	<timezone id="Indian/Christmas">
+		<utc_offset>25200</utc_offset>
+	</timezone>
+	<timezone id="Indian/Cocos">
+		<utc_offset>23400</utc_offset>
+	</timezone>
+	<timezone id="Indian/Comoro">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Indian/Kerguelen">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Indian/Mahe">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Indian/Maldives">
+		<utc_offset>18000</utc_offset>
+	</timezone>
+	<timezone id="Indian/Mauritius">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Indian/Mayotte">
+		<utc_offset>10800</utc_offset>
+	</timezone>
+	<timezone id="Indian/Reunion">
+		<utc_offset>14400</utc_offset>
+	</timezone>
+	<timezone id="Iran">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Israel">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Jamaica">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Japan">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Kwajalein">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Libya">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="MET">
+		<utc_offset>3600</utc_offset>
+	</timezone>
+	<timezone id="Mexico/BajaNorte">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="Mexico/BajaSur">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="Mexico/General">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="MST">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="MST7MDT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Navajo">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="NZ">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="NZ-CHAT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Apia">
+		<utc_offset>50400</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Auckland">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Bougainville">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Chatham">
+		<utc_offset>49500</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Chuuk">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Easter">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Efate">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Enderbury">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Fakaofo">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Fiji">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Funafuti">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Galapagos">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Gambier">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Guadalcanal">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Guam">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Honolulu">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Johnston">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Kiritimati">
+		<utc_offset>50400</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Kosrae">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Kwajalein">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Majuro">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Marquesas">
+		<utc_offset>-34200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Midway">
+		<utc_offset>-39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Nauru">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Niue">
+		<utc_offset>-39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Norfolk">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Noumea">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Pago_Pago">
+		<utc_offset>-39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Palau">
+		<utc_offset>32400</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Pitcairn">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Pohnpei">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Ponape">
+		<utc_offset>39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Port_Moresby">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Rarotonga">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Saipan">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Samoa">
+		<utc_offset>-39600</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Tahiti">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Tarawa">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Tongatapu">
+		<utc_offset>46800</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Truk">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Wake">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Wallis">
+		<utc_offset>43200</utc_offset>
+	</timezone>
+	<timezone id="Pacific/Yap">
+		<utc_offset>36000</utc_offset>
+	</timezone>
+	<timezone id="Poland">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Portugal">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="PRC">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="PST8PDT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="ROC">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="ROK">
+		<utc_offset>28800</utc_offset>
+	</timezone>
+	<timezone id="Singapore">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Turkey">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="UCT">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Universal">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="US/Alaska">
+		<utc_offset>-32400</utc_offset>
+	</timezone>
+	<timezone id="US/Aleutian">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="US/Arizona">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="US/Central">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="US/East-Indiana">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="US/Eastern">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="US/Hawaii">
+		<utc_offset>-36000</utc_offset>
+	</timezone>
+	<timezone id="US/Indiana-Starke">
+		<utc_offset>-21600</utc_offset>
+	</timezone>
+	<timezone id="US/Michigan">
+		<utc_offset>-18000</utc_offset>
+	</timezone>
+	<timezone id="US/Mountain">
+		<utc_offset>-25200</utc_offset>
+	</timezone>
+	<timezone id="US/Pacific">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="US/Pacific-New">
+		<utc_offset>-28800</utc_offset>
+	</timezone>
+	<timezone id="US/Samoa">
+		<utc_offset>-39600</utc_offset>
+	</timezone>
+	<timezone id="UTC">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="W-SU">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="WET">
+		<utc_offset>0</utc_offset>
+	</timezone>
+	<timezone id="Zulu">
+		<utc_offset>0</utc_offset>
+	</timezone>
+</timezones>
